@@ -1,0 +1,62 @@
+body{
+    background-color: $lightGrey;
+    margin-top: 4.8rem;
+    .card{
+        background-color: $white;
+        border-radius: 1.1rem;
+        width: 80vw;
+        height: 60vh;
+        @media (min-width: 375px){
+            width: 20vw;
+            height: 70vh;
+        }
+        @media (min-width: 1440px){
+            width: 22vw;
+            height: 70vh;
+        }
+        img{
+            width: 70vw;
+            border-radius: 0.7rem;
+            margin-top: 0.8rem;
+            margin-bottom: 1.2rem;
+            @media (min-width: 375px){
+                width: 18vw;
+            }
+            @media (min-width: 1440px){
+                width: 20vw;
+            }
+        }
+        .titulo{
+            font-family: $mainFont;
+            color: $blue; 
+            font-weight: $boldFont;
+            text-align: center;
+            @media (min-width: 375px){
+
+            }
+            @media (min-width: 1440px){
+                font-size: 1.3rem;
+            }
+        }
+        p{
+            font-family: $mainFont;
+            color: $lightBlue;
+            text-align: center;
+            @media (min-width: 375px){
+
+            }
+            @media (min-width: 1440px){
+                font-size: $sizeParagraph;
+            }
+        }
+    }
+    .attribution{
+        font-size: $sizeAtt;
+        text-align: center;
+        
+        a{
+            color: $superLightBlue;
+            text-decoration: none;
+        }
+    }
+}

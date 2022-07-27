@@ -1,0 +1,22 @@
+//font
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+$mainFont: Outfit, sans-serif;
+
+//weight
+$lightFont: 400;
+$boldFont: 700;
+
+//size
+$sizeParagraph: 1rem;
+$sizeAtt: 0.5rem;
+
+//colors
+$white: hsl(0, 0%, 100%);
+$lightGrey: hsl(212, 45%, 89%);
+$lightBlue: hsl(220, 15%, 55%); 
+$superLightBlue:  hsl(228, 45%, 44%); 
+$blue: hsl(218, 44%, 22%);
+
+// Mobile: 375px
+//Desktop: 1440px
